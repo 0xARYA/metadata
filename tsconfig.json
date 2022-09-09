@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "packages/",
+    "target": "ES2015",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "paths": {
+      "@metadata/*": ["packages/*"]
+    }
+  },
+  "exclude": ["**/*.test.ts", "**/*.stub.ts", "node_modules", "build"]
+}

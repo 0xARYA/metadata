@@ -1,0 +1,23 @@
+{
+  "name": "@metadata/deobfuscator",
+  "version": "1.0.0",
+  "description": "Amazon Metadata - Deobfuscator.",
+  "author": "Arya Alikhani - @0xARYA",
+  "private": "true",
+  "license": "UNLICENSED",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.10",
+    "babel-plugin-minify-dead-code-elimination": "^0.5.2",
+    "babel-plugin-remove-unused-vars": "^2.2.0",
+    "js-beautify": "^1.14.5"
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.1.19",
+    "@types/glob": "^7.2.0",
+    "@types/js-beautify": "^1.13.3"
+  }
+}

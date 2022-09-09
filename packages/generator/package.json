@@ -1,0 +1,15 @@
+{
+  "name": "@metadata/generator",
+  "version": "1.0.0",
+  "description": "Amazon Metadata - Generator.",
+  "author": "Arya Alikhani - @0xARYA",
+  "private": "true",
+  "license": "UNLICENSED",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "crc-32": "^1.2.2"
+  }
+}
